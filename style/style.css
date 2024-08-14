@@ -16,7 +16,7 @@ body {
 /* header section style here */
 header {
   max-width: 1440px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin: 0 auto;
   background: linear-gradient(
     180deg,
@@ -64,13 +64,13 @@ header {
   /* min-height: 100vh; */
   margin: 0 auto;
   margin-top: 40px;
-  border: 2px solid rgba(143, 71, 71, 0.568);
+  /* border: 2px solid rgba(143, 71, 71, 0.568); */
 }
 
 .banner-text-content {
   width: 50%;
   /* margin-top: 80px; */
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
