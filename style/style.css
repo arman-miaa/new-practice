@@ -1,0 +1,1410 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama?styles=170364");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+/* header section style here */
+header {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+.navbar-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 2px 20px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.nav-logo-content h3 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  font-style: italic;
+  color: rgb(230, 83, 60);
+}
+.nav-links-content a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.nav-hamburger-menu {
+  display: none;
+}
+
+.home-btn {
+  background-color: rgb(230, 83, 60);
+  padding: 8px 15px;
+  border-radius: 50px;
+}
+
+/* banner section style here */
+.banner-section-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  /* height: 63vh; */
+  /* min-height: 100vh; */
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 2px solid rgba(143, 71, 71, 0.568);
+}
+
+.banner-text-content {
+  width: 50%;
+  /* margin-top: 80px; */
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.banner-text-content h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 120%;
+}
+.banner-text-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+#banner-shape-text {
+  font-family: "Miama", sans-serif;
+  font-size: 4rem;
+  font-weight: normal;
+}
+.banner-text-button {
+  display: flex;
+}
+
+.banner-first-btn {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  padding: 16px 25px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: 1px solid black;
+  margin-right: 10px;
+}
+.banner-second-btn {
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 16px 25px;
+  border-radius: 42px;
+  background: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.banner-img-content {
+  width: 40%;
+  height: 80%;
+  position: relative;
+    border: 1px solid blue;
+
+}
+#right-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.img-over-box {
+  width: 170px;
+  height: 90px;
+  padding: 10px 15px;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.img-over-box h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.img-over-box p {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.img-over-box2 {
+  width: 190px;
+  height: 90px;
+  position: absolute;
+  bottom: 12%;
+  left: -10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  background: rgba(48, 48, 48, 0.54);
+}
+
+.first-div {
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+
+.last-div h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 6px;
+  letter-spacing: 0.3px;
+}
+
+.last-div p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+/* main section style here */
+
+/* change section style here */
+.change-section-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.change-text-des-content {
+  text-align: center;
+  width: 45%;
+  margin: 0 auto;
+}
+.change-text-des-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin: 15px 0px;
+}
+
+.change-text-des-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+
+.change-img-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 58px;
+  width: 80%;
+}
+
+.change-card {
+  text-align: center;
+}
+
+.change-card img {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.change-card h3 {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+
+.change-card p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.3px;
+  padding-bottom: 10px;
+}
+
+/* run section style here */
+.run-main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.run-section-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.run-text-des-section {
+  width: 40%;
+}
+
+.run-text-des-section h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.run-text-des-section p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 10px 0px 20px;
+}
+
+.run-text-des-section button {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  padding: 16px 50px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+}
+
+.run-img-content {
+  width: 40%;
+  background-image: url("../images/run.jpg");
+  background-repeat: no-repeat;
+  background-position:66% 28%;
+  border-radius: 20px;  
+}
+
+/* training section style here */
+.training-main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.training-section-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.training-text-des-content h2 {
+  font-size: 3rem;
+}
+
+.training-text-des-content p {
+  font-size: 14px;
+  opacity: 0.7;
+  margin: 10px 0px 25px 0px;
+}
+
+.training-img-content {
+  width: 100%;
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.training-img-content img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.first-img {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 6;
+  position: relative;
+  background-image: url("../images/exercise1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(6, 255, 210, 0.5);
+  background-blend-mode: overlay;
+}
+
+.first-img p {
+  position: absolute;
+  color: black;
+  bottom: 10%;
+  left: 10%;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.second-img {
+  grid-column: 4 / span 6;
+  grid-row: 1 / span 6;
+  position: relative;
+  background-image: url("../images/exercise2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255, 0, 0, 0.3);
+  background-blend-mode: overlay;
+}
+
+.second-img p {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-weight: 700;
+}
+
+.third-img {
+  grid-column: 10 / span 13;
+  grid-row: 1 / span 6;
+  position: relative;
+  background-image: url("../images/exercise3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+.third-img p {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  font-weight: 700;
+}
+
+.fourth-img {
+  grid-column: 1 / span 4;
+  grid-row: 7 / span 13;
+  position: relative;
+  background-image: url("../images/exercise4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+.fourth-img p {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-weight: bold;
+}
+.fourth-img h6 {
+  position: absolute;
+  color: white;
+  bottom: 10%;
+  left: 10%;
+  font-weight: bold;
+  display: none;
+}
+
+.fifth-img {
+  grid-column: 5 / span 4;
+  grid-row: 7 / span 13;
+  position: relative;
+  background-image: url("../images/exercise5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(66, 255, 0, 0.3);
+  background-blend-mode: overlay;
+}
+.fifth-img p {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  font-weight: bold;
+}
+
+.fifth-img h6 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  font-weight: bold;
+  display: none;
+}
+
+.sixth-img {
+  grid-column: 9 / span 13;
+  grid-row: 7 / span 13;
+  position: relative;
+  background-image: url("../images/exercise6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 71, 255, 0.3);
+  background-blend-mode: overlay;
+}
+
+.sixth-img p {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  font-weight: bold;
+}
+
+/* bmi calculator style  */
+.bmi-calculator-section-container {
+  margin-top: 90px;
+}
+
+.bmi-text-des-content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bmi-text-des-content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.bmi-text-des-content p {
+  color: rgba(255, 255, 255, 0.662);
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.bmi-calculate-below-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  padding-bottom: 50px;
+}
+
+.bmi-calculator-chart-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.bmi-calculator-chart-content {
+  width: 70%;
+}
+
+.bmi-calculator-chart-content h1 {
+  font-size: 2rem;
+  text-align: left;
+}
+
+table {
+  border: 1px solid skyblue;
+  width: 100%;
+  height: 200px;
+  margin-top: 35px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid gray;
+}
+
+table,
+th,
+td {
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.calculate-bmi-content h2 {
+  font-size: 2rem;
+}
+
+.calculate-bmi-content p {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.calculate-bmi-content input,
+select {
+  padding: 17px 64px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.662);
+  border-radius: 10px;
+}
+.calculate-fifty-width {
+  width: 48%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.calculate-fifty-width option {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(16, 13, 13, 0.734);
+}
+
+#last-box {
+  width: 98%;
+  color: rgba(255, 255, 255, 0.5);
+}
+#last-box option {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(16, 13, 13, 0.734);
+}
+
+.calculate-bmi-btn {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  padding: 16px 50px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border: none;
+  margin-top: 20px;
+}
+
+/* meet section content start */
+.meet-main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.meet-section-container {
+  padding-bottom: 100px;
+}
+
+.meet-text-des-content {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.meet-text-des-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.meet-text-des-content p {
+  margin-bottom: 50px;
+  color: rgba(255, 255, 255, 0.662);
+}
+
+.meet-img-content {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+}
+
+.meet-img-content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.meet-img-content p {
+  margin-top: 5px;
+  color: #ffffff9a;
+  font-weight: bold;
+}
+.meet-first-img {
+  position: relative;
+}
+
+.meet-first-img > div {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+/* .meet-first-img p {
+    margin-top: 10px;
+    color: #ffffff9a;
+} */
+
+.meet-second-img {
+  position: relative;
+}
+.meet-second-img > div {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.meet-thirt-img {
+  position: relative;
+}
+.meet-thirt-img > div {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.meet-forth-img {
+  position: relative;
+}
+.meet-forth-img > div {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.meet-fifth-img {
+  position: relative;
+}
+.meet-fifth-img > div {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+.meet-sixth-img {
+  position: relative;
+}
+.meet-sixth-img > div {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+/* choose section style here */
+
+.choose-main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.choose-section-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.choose-title-des-content {
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.choose-title-des-content h1 {
+  font-size: 3.25rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+.choose-title-des-content p {
+  color: rgba(255, 255, 255, 0.662);
+}
+
+#choose-color-text {
+  color: rgb(230, 83, 60);
+}
+.choose-box-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 25px;
+  /* border: 2px solid blue; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+.choose-box-item {
+  /* border: 1px solid rgb(230, 83, 60); */
+  border: 1px solid rgba(230, 83, 60, 0.557);
+  padding: 24px 40px;
+  border-radius: 10px;
+}
+.choose-box-item h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.choose-box-item h3 {
+  font-size: 2rem;
+  color: rgb(230, 83, 60);
+}
+.choose-box-item p {
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.662);
+}
+
+/* footer section style */
+.footer-main-container {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+  padding-top: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-main-section {
+  padding-top: 30px;
+}
+
+.footer-section-container {
+  display: grid;
+  grid-template-columns: 35% repeat(2, 1fr);
+  gap: 90px;
+  padding: 30px 0px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.left-section-content h1 {
+  font-size: 4.25rem;
+  font-weight: 800;
+  font-style: italic;
+  color: rgb(230, 83, 60);
+  margin-bottom: 25px;
+}
+
+.left-section-content p {
+  color: rgba(255, 255, 255, 0.662);
+  line-height: 29px;
+}
+
+.middle-section-content h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.middle-section-content h3 {
+  color: rgba(255, 255, 255, 0.662);
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.right-section-content h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.right-section-content h3 {
+  color: rgba(255, 255, 255, 0.662);
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.footer-horizontal-rule {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  margin-top: 50px;
+}
+
+.last-footer-text p {
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 20px;
+  word-spacing: 5px;
+  color: rgba(255, 255, 255, 0.662);
+}
+
+/* responsive design start here */
+
+/* tablet responsive design */
+@media screen and (max-width: 992px) {
+  .navbar-section-container {
+    max-width: 1000px;
+    padding: 20px;
+  }
+  .nav-links-content a {
+    margin-left: 15px;
+  }
+  .nav-links-content {
+    margin-right: 20px;
+  }
+  /* banner style */
+  .banner-section-container {
+    width: 100%;
+    padding: 40px;
+    flex-direction: column;
+  }
+
+  .banner-text-content {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .banner-text-content p {
+    width: 75%;
+  }
+  .banner-img-content {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .img-over-box {
+    top: 12%;
+    left: 55%;
+  }
+  .img-over-box2 {
+    bottom: 20%;
+    left: 22%;
+  }
+  .change-section-container {
+    /* border: 1px solid gray; */
+    margin-top: 450px;
+  }
+  .change-text-des-content {
+    width: 100%;
+    padding: 10px;
+  }
+  .change-text-des-content p {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .change-img-content {
+    width: 80%;
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .change-img-content img {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    /* border: 1px solid blue; */
+  }
+  .change-img-content p {
+    font-size: 16px;
+  }
+  /* run section responsive */
+  .run-section-container {
+    width: 100%;
+    gap: 40px;
+  }
+
+  .run-text-des-section {
+    width: 100%;
+  }
+  .run-text-des-section h2 {
+    font-size: 40px;
+  }
+  .run-text-des-section p {
+    margin: 15px 0px 30px 0px;
+  }
+
+  .run-img-content {
+    width: 100%;
+  } 
+  /* training section */
+  .training-main-container {
+    width: 100%;
+  }
+
+  .training-section-container {
+    width: 100%;
+    padding: 20px;
+  }
+  .training-text-des-content {
+    width: 100%;
+  }
+  .training-img-content p {
+    font-size: 14px;
+    font-weight: 100;
+  }
+  .second-img {
+    grid-column: 4 / span 5;
+  }
+
+  .third-img {
+    grid-column: 9 / span 4;
+  }
+  .fourth-img p {
+    position: absolute;
+    top: 70%;
+    right: 20%;
+    font-weight: bold;
+  }
+
+  /* bmi-calculator responsive */
+  .bmi-calculator-chart-container {
+    flex-direction: column;
+    padding: 0px 25px 0px 30px;
+    width: 100%;
+  }
+
+  /* meet section responsive */
+  .meet-text-des-content {
+    width: 65%;
+  }
+  /* choose section responsive for tablet  */
+  .choose-section-container {
+    width: 90%;
+  }
+  .choose-title-des-content {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  .choose-title-des-content h1 {
+    font-size: 3.75rem;
+  }
+
+  .choose-box-items {
+    margin-top: 10px;
+  }
+
+  .choose-box-item {
+    padding: 20px;
+  }
+
+  /* footer section style */
+
+  .footer-section-container {
+    grid-template-columns: repeat(12, 1fr);
+    margin-left: 42px;
+    gap: 40px;
+  }
+  .left-section-content {
+    grid-column: 1 / span 10;
+  }
+  .middle-section-content {
+    grid-column: 1 / span 6;
+  }
+  .right-section-content {
+    grid-column: 7 / span 6;
+  }
+}
+
+/* mobile responsive design */
+@media screen and (max-width: 576px) {
+  .navbar-section-container {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .nav-links-content a {
+    display: none;
+  }
+  .nav-hamburger-menu {
+    display: block;
+  }
+  .banner-section-container {
+    height: auto;
+    width: 100%;
+    padding: 0px 15px 0px 15px;
+    border-top: 20px;
+  }
+
+  .banner-text-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .banner-text-content h1 {
+    font-size: 2.5rem;
+    /* font-weight: 700; */
+  }
+  #banner-shape-text {
+    font-size: 2.75rem;
+    font-weight: normal;
+  }
+
+  .banner-first-btn {
+    width: 44%;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 16px 16px;
+  }
+
+  #hidden-club {
+    display: none;
+  }
+
+  .banner-second-btn {
+    width: 50%;
+    padding: 16px 16px;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .img-over-box {
+    width: 140px;
+    height: 70px;
+    top: 15;
+    left: 55%;
+  }
+  .img-over-box h3 {
+    font-size: 1.7rem;
+    font-weight: 800;
+  }
+
+  .img-over-box p {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .img-over-box2 {
+    width: 160px;
+    height: 80px;
+    bottom: 40%;
+    left: 8%;
+  }
+  .img-over-box2 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* change section style */
+
+  .change-section-container {
+    margin-top: 0px;
+  }
+  .change-text-des-content {
+    width: 100%;
+    padding: 10px;
+  }
+  .change-text-des-content h1{
+    font-size: 34px;
+    width: 100%;
+  }
+  .change-text-des-content p {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 24px;
+  }
+
+  .change-img-content {
+    margin-top: 35px;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .change-img-content img {
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  .change-card {
+    margin-bottom: 30px;
+  }
+  .change-card h3 {
+    margin-top: 20px;
+    margin-bottom: 6px;
+  }
+  .change-img-content p {
+    width: 65%;
+    line-height: 22px;
+  }
+
+  /* run section */
+  .run-section-container {
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    margin-top: 25px;
+  }
+  .run-text-des-section h2 {
+    font-size: 2.25rem;
+  }
+  .run-text-des-section p {
+    line-height: 24px;
+  }
+
+  .run-section-btn {
+    width: 100%;
+  }
+
+  .run-img-content {
+    width: 100%;   
+  background-size: cover;
+    height:250px;
+
+  }
+
+  /* training section */
+  .training-main-container {
+    width: 100%;
+  }
+
+  .training-section-container {
+    width: 100%;
+    padding: 20px;
+    margin-top: 35px;
+  }
+  .training-text-des-content {
+    width: 100%;
+  }
+  .training-text-des-content h2{
+    font-size: 35px;
+  }
+  .training-text-des-content p {
+    line-height: 24px;
+  }
+
+  .first-img {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 6;
+  }
+  .first-img p {
+    color: white;
+    font-weight: 600;
+  }
+
+  .second-img {
+    grid-column: 7 / span 12;
+    grid-row: 1 / span 6;
+  }
+  .second-img p {
+    font-weight: bold;
+  }
+
+  .fourth-img {
+    grid-column: 1 / span 5;
+    grid-row: 7 / span 13;
+  }
+  .fourth-img p {
+    display: none;
+  }
+  .fourth-img h6 {
+    display: block;
+    font-weight: bold;
+  }
+
+  .fifth-img {
+    grid-column: 6 / span 12;
+    grid-row: 7 / span 13;
+  }
+  .fifth-img p {
+    display: none;
+  }
+  .fifth-img h6 {
+    display: block;
+  }
+  .second-img {
+    /* object-fit: none;
+object-position: 60% 80%; */
+    background-size: 300%;
+    background-position: 72% 30%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .second-img p {
+    font-weight: bold;
+  }
+
+  .third-img {
+    display: none;
+  }
+
+  .sixth-img {
+    display: none;
+  }
+
+  /* bmi section */
+  .bmi-calculator-section-container {
+    margin-top: 20px;
+  }
+  .bmi-calculator-chart-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 10px 0px;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .bmi-text-des-content {
+    width: 100%;
+    padding-left: 15px;
+  }
+  .bmi-text-des-content h2 {
+    font-size: 32px;
+  }
+  .bmi-text-des-content p {
+    margin-bottom: 25px;
+    line-height: 29px;
+  }
+
+  .bmi-calculator-chart-container {
+    width: 100%;
+  }
+
+  .bmi-calculator-chart-content {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+  }
+  .bmi-calculator-chart-container {
+    margin-top: 5px;
+  }
+
+  .bmi-calculator-chart-content h1 {
+    width: 100%;
+    font-size: 20px;
+  }
+  .calculate-bmi-content h2 {    font-size: 20px;
+  }
+  .calculate-bmi-content p {    
+    margin-top: 10px;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .calculate-bmi-content p {
+    line-height: 25px;    
+  }
+
+  .calculate-bmi-content input,
+  select {
+    padding: 17px 23px;
+  }
+  .calculate-fifty-width {
+    width: 47%;
+  }
+
+  .calculate-bmi-btn {
+    width: 55%;
+    border-radius: 40px;
+  }
+  /* meet section style */
+  .meet-section-container {
+  padding-bottom: 50px;
+}
+
+  .meet-text-des-content {
+    width: 85%;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .meet-text-des-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .meet-text-des-content p {
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  .meet-img-content {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .meet-first-img {
+    display: none;
+  }
+
+  .meet-four-img {
+    display: none;
+  }
+  /* choose section mobile responsive */
+  .choose-main-container {
+    width: 100%;
+    margin-bottom: 60px;    
+  }
+
+  .choose-section-container {
+    width: 90%;
+  }
+  .choose-title-des-content {
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .choose-title-des-content h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .choose-title-des-content p {
+    line-height: 24px;
+  }
+
+  .choose-box-items {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 20px;
+  }
+  .choose-box-item h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+  .choose-box-item h3 {
+  font-size: 1.32rem;
+  font-weight: bold;
+}
+
+  /* footer section mobile responsive */
+    .footer-main-section {
+  padding-top: 0px;
+}
+  .footer-container {
+  padding-top: 0px;
+}
+  .footer-section-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 15px;
+    width: 100%;
+    padding-left: 15px;
+  }
+  .left-section-content h1 {
+  margin-bottom: 15px;
+}
+  .left-section-content p {
+    line-height: 24px;
+  }
+
+  .right-section-content h3 {
+    margin-top: 20px;
+
+  }
+  .footer-horizontal-rule {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .last-footer-text p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0px 57px 0px 18px;
+  }
+}
